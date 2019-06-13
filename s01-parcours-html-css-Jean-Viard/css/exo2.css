@@ -1,0 +1,55 @@
+/*
+ * Les timides ronds multicolores
+ * Par défaut, les ronds sont gris, mais au moment où la souris passe au dessus d'un rond, le rond doit changer de couleur
+ * Pour les codes couleurs, il faut aller les récupérer directement sur le logo de Google !
+ * En bonus, au survol de la souris, on grossit aussi le rond et il met 1 seconde pour atteindre la nouvelle "taille"
+ */
+
+  .loading__circleloading__circle--color-blue {
+        height: 3em;
+        width: 3em;
+        background-color: gray;
+        border-radius: 50%;
+        display: inline-block;
+      }
+  
+  .loading__circleloading__circle--color-red {
+        height: 3em;
+        width: 3em;
+        background-color: gray;
+        border-radius: 50%;
+        display: inline-block;
+      }
+  
+  .loading__circleloading__circle--color-yellow {
+        height: 3em;
+        width: 3em;
+        background-color: gray;
+        border-radius: 50%;
+        display: inline-block;
+      }
+  
+  .loading__circleloading__circle--color-green {
+        height: 3em;
+        width: 3em;
+        background-color: gray;
+        border-radius: 50%;
+        display: inline-block;
+      }
+  
+      .loading__circleloading__circle--color-green:hover {
+        background-color: green;
+    }
+
+    .loading__circleloading__circle--color-red:hover {
+        background-color:red;
+    }
+
+    .loading__circleloading__circle--color-yellow:hover {
+        background-color:yellow;
+    }
+
+    .loading__circleloading__circle--color-blue:hover {
+        background-color:blue;
+    }
+  

@@ -1,0 +1,23 @@
+/*
+ * Le losange de la délivrance
+ */
+ #wrap, .losange div {
+    margin-top: 200px;
+    transform-origin: 50% 50%;
+    overflow: hidden;
+    width: 250px;
+    height: 250px;
+  }
+  #wrap {
+    transform: rotate(45deg) translateY(10px);
+    box-shadow: 0px 0px 60px 2px grey;
+  }
+  #wrap .franckenwini {
+    width: 355px;
+    height: 355px;
+    transform: rotate(-45deg) translateY(-74px);
+  }
+  #wrap .franckenwini img {
+    width: 100%;
+    height: auto;
+  }

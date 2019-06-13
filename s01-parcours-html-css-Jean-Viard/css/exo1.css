@@ -1,0 +1,18 @@
+/*
+ * L'effroyable fossé entre paragraphes
+ * Il faut respecter aussi le gras, l'italique, la largeur des paragraphes…
+ */
+
+ strong {
+    font-weight: bold;
+ }
+
+ em {
+    font-style: italic;
+ }
+
+p {
+    width: 558.5px;
+    margin: 20px;
+}
+
